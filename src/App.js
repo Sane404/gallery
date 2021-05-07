@@ -14,16 +14,19 @@ function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="React_gallery/">
               <Home />
             </Route>
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/full_image/:id">
+            <Route path="React_gallery/full_image/:id">
               <SingleImage />
             </Route>
-            <Route path="/query/:name" children={<SingleQueryItem />}></Route>
+            <Route
+              path="React_gallery/query/:name"
+              children={<SingleQueryItem />}
+            ></Route>
           </Switch>
         </Router>
       </div>
