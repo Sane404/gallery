@@ -1,0 +1,39 @@
+nav {
+  background: #333;
+  color: white;
+}
+nav ul li {
+  padding: 10px;
+}
+.cities .wrap li {
+  padding-left: 0 !important;
+}
+.cities .wrap li a {
+  font-style: italic;
+}
+nav ul {
+  padding-left: 0;
+  margin: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav_toggler {
+  font-size: 30px;
+  margin-left: auto;
+  width: 40px;
+  padding-left: 5px;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.nav_toggler.hidden {
+  transform: rotate(360deg);
+  transition: transform 0.3s;
+}
+.main_list.hidden {
+  display: none;
+}
+nav.hidden {
+  min-width: auto !important;
+}

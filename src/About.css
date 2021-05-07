@@ -1,0 +1,28 @@
+.about {
+  width: 100%;
+  height: calc(100vh - 41px);
+  position: relative;
+  background: #111;
+}
+.text_box {
+  max-width: 500px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+}
+.more_about {
+  font-size: 26px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.more_api {
+  font-size: 20px;
+  font-weight: bold;
+}
+.more_api a {
+  text-decoration: none;
+  color: dodgerblue;
+}

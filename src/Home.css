@@ -1,0 +1,50 @@
+.homepage {
+  height: calc(100vh - 41px);
+  width: 100%;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  background-image: url("./background.jpg");
+  position: relative;
+  background-size: cover;
+}
+.text_box {
+  max-width: 500px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+}
+.text_box h2 {
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.about_proj {
+  font-size: 26px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.how_to {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 700px) {
+  .text_box h2 {
+    font-size: 30px;
+  }
+  .about_proj {
+    font-size: 20px;
+  }
+  .how_to {
+    font-size: 16px;
+  }
+  .text_box {
+    left: 0 !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
