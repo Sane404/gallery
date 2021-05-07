@@ -2,7 +2,7 @@
   "name": "pixabay-gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sane404.github.io/gallery_react/",
+  "homepage": "https://sane404.github.io/gallery",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
