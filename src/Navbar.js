@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
       <ul className={`${showNav ? "main_list" : "main_list hidden"}`}>
         <li>
-          <Link exact="true" to="/">
+          <Link exact="true" to="React_gallery/">
             Home
           </Link>
         </li>
@@ -48,7 +48,9 @@ const Navbar = () => {
                 const { id, name } = query;
                 return (
                   <li key={id}>
-                    <Link to={`/query/${name.toLowerCase()}`}>{name}</Link>
+                    <Link to={`React_gallery/query/${name.toLowerCase()}`}>
+                      {name}
+                    </Link>
                   </li>
                 );
               })}
@@ -56,7 +58,7 @@ const Navbar = () => {
           </ul>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="React_gallery/about">About</Link>
         </li>
       </ul>
     </nav>

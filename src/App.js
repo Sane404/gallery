@@ -17,7 +17,7 @@ function App() {
             <Route exact path="React_gallery/">
               <Home />
             </Route>
-            <Route path="/about">
+            <Route path="React_gallery/about">
               <About />
             </Route>
             <Route path="React_gallery/full_image/:id">
